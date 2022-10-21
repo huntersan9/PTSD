@@ -1,0 +1,26 @@
+Motherboard Template
+
+PUT SERIAL IN SUBJECT!!!!
+---
+SERIAL - Autopilot Deregistration Request
+
+We received a motherboard from Dell and when we try to enroll it into our Tenant, it is already stated that it is already attached to a different tenant. We've contacted Dell about this issue and they told us to contact Microsoft Support to remove the motherboard from the other tenant so we can add it to ours. Attached is the HWID, the packing page and the work order for the replacement motherboard. I ran the mdmdiagnosticstool.exe -area Autopilot;TPM but it failed to produce a cab file, log is attached.
+
+Below are some of the answers to questions we get asked about our setup.
+
+•	What is your tenant environment cloud/hybrid?
+o	Cloud
+•	When did the issue start?
+o	When we received the replacement board from Dell.
+•	How many of your devices are currently affected?
+o	The single board we received from Dell
+•	What is the OS type and version?
+o	None, the hardware ID is not able to be put into Intune.
+•	What is it that you are attempting to do when you get this error?
+o	I’m attempting to import the HWID into our tenant.
+•	What specific error your getting? (Please provide a screenshot)
+o	808 - ZtdDeviceAssignedToOtherTenant 
+•	What steps have you performed so far in an attempt to resolve the issue?
+o	As this is an issue where the previous tenant did not remove their HWID before returning the motherboard to Dell, I followed the procedure for that and opened this ticket.
+•	Your hours of availability for a callback?
+o	Unfortunately I do not have the ability to receive a callback.  Please use email.
